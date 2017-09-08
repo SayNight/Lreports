@@ -9,6 +9,18 @@
 	<packaging>jar</packaging>
 	<name>lls-report</name>
 	<url>http://maven.apache.org</url>
+	<licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>SayNight</name>
+            <email>gnehsnilil@163.com</email>
+        </developer>
+    </developers>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -49,6 +61,21 @@
 			<artifactId>opencsv</artifactId>
 			<version>4.0</version>
 		</dependency>
+		<dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+             <version>3.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+             <version>3.16</version>
+        </dependency>
 	</dependencies>
 
 	<build>

@@ -4,10 +4,10 @@ You can download the XLS or the CSV file through the browser --Java
 Download XLS file base on Jxls 2.4.2，CSV file base on java.IO，also support JXEL。
 
 
-Use Guide
-lls-report目前仅支持：xls(基于jxls二次改造)，cvs(基于流，支持jxel表达式) 格式下载。
-	注意事项：结果集中列名不能下划线，建议起别名且只使用纯小写字母。
-	使用步骤:
+#Use Guide
+ lls-report目前仅支持：xls(基于jxls二次改造)，cvs(基于流，支持jxel表达式) 格式下载。
+ 注意事项：结果集中列名不能下划线，建议起别名且只使用纯小写字母。
+ 使用步骤:
 	（1）引入pom
 		<dependency>
 			<groupId>com.lls.report</groupId>

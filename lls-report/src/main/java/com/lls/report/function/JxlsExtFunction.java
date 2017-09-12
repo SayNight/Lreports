@@ -101,14 +101,8 @@ public class JxlsExtFunction {
 			return "";
 		}
 		Class<Enum> clzz = (Class<Enum>) Class.forName(enumPackage);
-		Object[] objects = clzz.getEnumConstants();
-		for (Object obj : objects) {
-			Enum<?> result = Enum.valueOf(clzz, value);
-			if(result.name().equals(value)){
-				Method method = clzz.getDeclaredMethod("getDesc");
-				return (String) method.invoke(obj, null);
-			}
-		}
-		return "";
+		Enum<?> result = Enum.valueOf(clzz, value);
+		Method method = clzz.getDeclaredMethod("getDesc");//  枚举类获取描述必须用此方法--getDesc
+		return (String) method.invoke(result, null);
 	}
 }

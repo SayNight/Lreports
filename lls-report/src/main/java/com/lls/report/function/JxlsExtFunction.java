@@ -21,7 +21,7 @@ public class JxlsExtFunction {
 	public static final SimpleDateFormat SHORT_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
 	public static final SimpleDateFormat LONG_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
-	private static JxlsExtFunction jxlsExtFunction = null;
+	private volatile static JxlsExtFunction jxlsExtFunction = null;
 	
 	/**
 	 * 

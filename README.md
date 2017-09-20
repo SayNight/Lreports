@@ -8,7 +8,7 @@ Base on Jxls 2.4.2+ and java.IO.   so also support JXEL.
 
 Installation
 -------  
-    git clone https://github.com/SayNight/lls-report.git
+    git clone https://github.com/SayNight/Lreports.git
 
 Consideration
 -------  

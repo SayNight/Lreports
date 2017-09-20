@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.lls.report</groupId>
-	<artifactId>lls-report</artifactId>
+	<groupId>com.lls.lreports</groupId>
+	<artifactId>lreports</artifactId>
 	<version>1.0</version>
 
 	<packaging>jar</packaging>
-	<name>lls-report</name>
+	<name>lreports</name>
 	<url>http://maven.apache.org</url>
 	<licenses>
         <license>
@@ -79,7 +79,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>lls-report</finalName>
+		<finalName>lreports</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

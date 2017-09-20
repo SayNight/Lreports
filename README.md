@@ -12,7 +12,7 @@ Installation
 
 Consideration
 -------  
- * Identifiers / variables: Must start with a-z, A-Z, 1-9. Can then be followed by 0-9, a-z, A-Z, . e.g. Case insensitive.
+ * Identifiers / variables: Must start with a-z, A-Z, _ or $. Can then be followed by 0-9, a-z, A-Z, _ or $. e.g.
  * Apache POI: required version 3.16+.
 
 Quick Start

@@ -1,8 +1,10 @@
 Simple description
 ------- 
-You can download the XLS or the CSV file from the browser by the lls-report.
+You can download the XLS or the CSV file from the browser by the Lreports.
 
 Download XLS file base on Jxls 2.4.2,CSV file base on java.IO,also support JXEL.
+
+Lreports is a small Java library to make generation of Excel reports easy. Lreports uses a special markup in Excel templates to define output formatting and data layout.
 
 Installation
 -------  

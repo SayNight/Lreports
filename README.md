@@ -19,12 +19,12 @@ Quick Start
 ------- 
 
     @RequestMapping("downLoad")//spring mvc
-	public void orderDownload(HttpServletRequest request, HttpServletResponse response){
+	public void download(HttpServletRequest request, HttpServletResponse response){
 		List dataList = getDataList(XXXXX);
 		String CSVTEMPLATE = "/WEB-INF/template/csv/template.csv";
 		WebApplicationContext webApplicationContext = ContextLoader.getCurrentWebApplicationContext();  
 	        ServletContext servletContext = webApplicationContext.getServletContext();
 	        DownloadService downloadService = DownloadFactory.createDownloadService(request.getParameter("downType"));// downType :SupportTypeEnum.XLS.name()  or SupportTypeEnum.CSV.name()
-	        String fileName = FileUtil.fmtFileName(request, DateUtils.getReqDate()+ "template");
+	        String fileName = FileUtil.fmtFileName(request, "template");//don't need if your file name not include Chinese
 	        downloadService.downloadFile(response, servletContext.getResourceAsStream(CSVTEMPLATE), dataList, fileName, null);
 	}

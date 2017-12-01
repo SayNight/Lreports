@@ -51,7 +51,7 @@ public class CSVTemple {
 				if(count == 0){
 					names = str.split(",");
 				}else if(count == 1){
-					titles = str.split(",");
+					titles = str.split(",(?=\\$)");
 				}
 				count++;
 			}

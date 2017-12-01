@@ -63,7 +63,7 @@ public class JxlsExtFunction {
 		if(number == null){
 			number = BigDecimal.ZERO;
 		}
-		DecimalFormat format = new DecimalFormat("##0.0#");
+		DecimalFormat format = new DecimalFormat("##0.00");
 		format.setRoundingMode(RoundingMode.HALF_UP);
 		format.setMultiplier(1);
 		return format.format(number);
@@ -73,7 +73,7 @@ public class JxlsExtFunction {
 		if(number == null){
 			return "";
 		}
-		DecimalFormat format = new DecimalFormat("##0.0#");
+		DecimalFormat format = new DecimalFormat("##0.00");
 		format.setRoundingMode(RoundingMode.HALF_UP);
 		format.setMultiplier(1);
 		return format.format(number);

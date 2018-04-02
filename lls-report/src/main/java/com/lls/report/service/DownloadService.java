@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 
  * @Title DownloadService.java
- * @Description 下载服务
+ * @Description 下载工厂服务
  * @author mrslee
  * @date 2017年9月7日 下午2:05:49
  * @version V1.0
